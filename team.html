@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!----------------------------------------
+    meta tags
+    ---------------------------------------->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----------------------------------------
+    title tag
+    ---------------------------------------->
+    <title>CBEX - Accounts Management System</title>
+
+    <!----------------------------------------
+    favicon
+    ---------------------------------------->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <!----------------------------------------
+    stylesheets
+    ---------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/glightbox.min.css">
+    <link rel="stylesheet" href="assets/css/overlay-scrollbars.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+    <!----------------------------------------
+    preloader - start
+    ---------------------------------------->
+    <div class="preloader">
+        <div class='sk-folding-cube'>
+            <div class='sk-cube sk-cube-1'></div>
+            <div class='sk-cube sk-cube-2'></div>
+            <div class='sk-cube sk-cube-4'></div>
+            <div class='sk-cube sk-cube-3'></div>
+          </div>
+    </div>
+    <!----------------------------------------
+    preloader - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    top menu - start
+    ---------------------------------------->
+    <div class="top-menu">
+        <div class="top-menu-wrapper">
+            <div class="tagline">
+                <p>CBEX — The first fully programmable accounts management system.</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="login.html" class="link  link-sm link-grey link-ls">
+                            <span class="txt-upper f-w-500 lt-1">client login</span>
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="link  link-sm link-grey link-ls">
+                            <span class="txt-upper f-w-500 lt-1">contact</span>
+                            
+                        </a>
+                    </li>
+                    <li class="phone lt-1">
+                        <a href="tel:123456789" class="link link-sm">
+                            <i class="fas fa-phone-alt c-primary"></i>
+                            <span>123 456 789</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    top menu - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    navigation - start
+    ---------------------------------------->
+    <div class="navigation">
+        <div class="navigation-wrapper">
+            <div class="navigation-inner">
+                <div class="navigation-logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="cbex-logo">
+                    </a>
+                </div>
+                <div class="navigation-menu">
+                    <div class="mobile-header">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo-white.png" alt="image">
+                            </a>
+                        </div>
+                        <ul>
+                            <li class="main-search">
+                                <div>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="login.html">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="close-button">
+                                <i class="fas fa-times"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="parent">
+                        <li class="has-child">
+                            <a href="index.html">
+                                <span>Home</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="index.html" class="link ">
+                                        <span>Home 1</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-2.html" class="link ">
+                                        <span>Home 2</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-child">
+                            <a href="about.html">
+                                <span>About</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="about.html" class="link ">
+                                        <span>About Us</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="team.html" class="link ">
+                                        <span>Our Team</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="careers.html" class="link ">
+                                        <span>Careers</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-child">
+                            <a href="#">
+                                <span>Services</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="service.html" class="link ">
+                                        <span>Services list</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service-detail.html" class="link ">
+                                        <span>Services detail</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-child">
+                            <a href="#">
+                                <span>Blog</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="blog.html" class="link ">
+                                        <span>Blog list</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog-detail.html" class="link ">
+                                        <span>Blog detail</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-child">
+                            <a href="login.html">
+                                <span>Others</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="login.html" class="link ">
+                                        <span>Login</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="signup.html" class="link ">
+                                        <span>Sign Up</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                        <li class="main-search">
+                            <a>
+                                <span><i class="fas fa-search"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="tagline">CBEX — The first fully programmable accounts management system.</p>
+                </div>
+                <div class="navigation-bar">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    navigation - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    page header list - start
+    ---------------------------------------->
+    <div class="page-header-list page-header-list-1">
+        <div class="page-header-list-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div class="page-header-list-content">
+                            <ul>
+                                <li>
+                                    <a href="about.html" class="link link-grey link-md">
+                                        <span>About</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="team.html" class="link link-md active">
+                                        <span class="f-w-500">Our Team</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="careers.html" class="link link-grey link-md">
+                                        <span>Careers</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    page header list - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    team section - start
+    ---------------------------------------->
+    <div class="team">
+        <div class="team-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <div class="team-header">
+                            <h2 class="headin-lg">Meet Our Accounting Pros!</h2>
+                            <p class="paragraph c-grey">Proud to say that many of these friendly faces have been with us since the very beginning. CBEX boasts
+                                the world's most talented, friendly team of tax and accounting professionals.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row team-member-row gx-5">
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-1.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">William J. Wilson</h4>
+                                <p class="c-grey">CPA/PFS, CFP®, CGMA, CDFA</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>william@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-2.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Pamela A. Jenice</h4>
+                                <p class="c-grey">CPA</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>pamela@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-3.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Jessica B. Wilde</h4>
+                                <p class="c-grey">CPA, MBA</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>jessica@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-4.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Stephanie P. Brooks</h4>
+                                <p class="c-grey">CPA, MBA, CFE</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>stephanie@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-5.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Mark S. Stevens</h4>
+                                <p class="c-grey">CPA, MBA</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>mark@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-6.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Elizabeth C. Martin</h4>
+                                <p class="c-grey">CPA, CFE, EA, MBA</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>elizabeth@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-7.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Kevin P. Foley</h4>
+                                <p class="c-grey">CPA, CFE, EA, MBA</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>kevin@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-8.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Britney K. Spencer</h4>
+                                <p class="c-grey">CPA</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>britney@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-9.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Kelvin W. Brown</h4>
+                                <p class="c-grey">CPA, MBA, CFE</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>kelvin@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-10.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Chris A. Anderson</h4>
+                                <p class="c-grey">ATP, Accountant</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>chris@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-11.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Bill A. Quinche</h4>
+                                <p class="c-grey">Accountant, Technologist</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>bill@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 offset-md-0 col-10 offset-1">
+                        <div class="team-member">
+                            <figure>
+                                <img src="assets/images/team/team-member-img-12.jpg" alt="team-image">
+                                <div class="team-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                    </ul>
+                                </div>
+                            </figure>
+                            <figcaption>
+                                <h4 class="heading-sm">Martin J. White</h4>
+                                <p class="c-grey">Office Assitant</p>
+                                <a href="mailto:#" class="link  ">
+                                    <span>martin@cbex.com</span>
+                                    
+                                </a>
+                            </figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    team section - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    testimonial - start
+    ---------------------------------------->
+    <div class="testimonial testimonial-3">
+        <!-- Background image is handled in scss in the _main.scss file on the .testimonial-wrapper class -->
+        <div class='testimonial-wrapper b-primary-light-2'>
+            <div class="container">
+                <div class="row">
+                    <div class="testimonial-heading-content">
+                        <h2 class="f-w-400 heading-40">Hear from what others say about our company</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="slider box-slider">
+                        <div class="swiper-container box-slider-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-slider-pagination bullet-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    testimonial - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    cta - start
+    ---------------------------------------->
+    <div class="cta-section b-primary">
+        <div class="cta-section-wrapper section-wrapper" style="background-image: url('assets/images/patterns/pattern.png');">
+            <div class="container">
+                <div class="row">
+                    <div class="cta-section-content txt-center">
+                        <h2 class="c-white f-w-400 heading-40 mg-center">Hire a professional CPA & Accounting firm.</h2>
+                        <div class="button-group">
+                            <a href="contact.html" class="button button-1 txt-upper">
+                                <div>
+                                    <i class="far fa-envelope"></i>
+                                    <span>book appointment</span>
+                                </div>
+                            </a>
+                            <a href="contact.html" class="button button-2 txt-upper">
+                                <div>
+                                    <i class="fas fa-headphones"></i>
+                                    <span>talk to an expert</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    cta - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    footer - start
+    ---------------------------------------->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-content">
+                            <h6 class="txt-sm c-primary f-w-500 txt-upper">contact</h6>
+                            <ul class="txt-sm-1 c-grey number-list">
+                                <!-- <li>P<a href="tel:123.456.7890">123.456.7890</a></li> -->
+                                <li>
+                                    P
+                                    <a href="tel:123.456.7890" class="link  link-md link-grey">
+                                        <span>123.456.7890</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    F
+                                    <a href="tel:123.456.7890" class="link  link-md link-grey">
+                                        <span>123.456.7890</span>
+                                        
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-content">
+                            <h6 class="txt-sm c-primary f-w-500 txt-upper">location</h6>
+                            <p class="c-grey ln-ht-3">596 Random Street Rd,<br>Melbourne, Australia</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-content">
+                            <h6 class="txt-sm c-primary f-w-500 txt-upper">company</h6>
+                            <ul class="txt-sm-1 c-grey">
+                                <li>
+                                    <a href="about.html" class="link  link-md link-grey">
+                                        <span>About</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service.html" class="link  link-md link-grey">
+                                        <span>Services</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog.html" class="link  link-md link-grey">
+                                        <span>Industries</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service-detail.html" class="link  link-md link-grey">
+                                        <span>Technology</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="link  link-md link-grey">
+                                        <span>Resources</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="team.html" class="link  link-md link-grey">
+                                        <span>In the Media</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="careers.html" class="link  link-md link-grey">
+                                        <span>Careers</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-content">
+                            <h6 class="txt-sm c-primary f-w-500 txt-upper">social</h6>
+                            <ul class="txt-sm-1 c-grey social-list">
+                                <li><a href="#" class="link  link-md link-grey">
+                                    <i class="fab fa-twitter-square c-light"></i>
+                                    <span>
+                                        <span>Twitter</span>
+                                    </span>
+                                    
+                                </a></li>
+                                <li><a href="#" class="link  link-md link-grey">
+                                    <i class="fab fa-facebook-square c-light"></i>
+                                    <span>
+                                        <span>Facebook</span>
+                                    </span>
+                                    
+                                </a></li>
+                                <li><a href="#" class="link  link-md link-grey">
+                                    <i class="fab fa-youtube c-light"></i>
+                                    <span>
+                                        <span>Youtube</span>
+                                    </span>
+                                    
+                                </a></li>
+                                <li><a href="#" class="link  link-md link-grey">
+                                    <i class="fab fa-linkedin c-light"></i>
+                                    <span>
+                                        <span>Linkedin</span>
+                                    </span>
+                                    
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h6 class="copyright txt-sm c-grey">&copy; 2021 CBEX</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!----------------------------------------
+    footer - end
+    ---------------------------------------->
+
+
+    </div>
+
+    <!----------------------------------------
+    scripts
+    ---------------------------------------->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/overlay-scrollbars.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

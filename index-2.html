@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!----------------------------------------
+    meta tags
+    ---------------------------------------->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!----------------------------------------
+    title tag
+    ---------------------------------------->
+    <title>CBEX - Accounts Management System</title>
+
+    <!----------------------------------------
+    favicon
+    ---------------------------------------->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/site.webmanifest">
+
+    <!----------------------------------------
+    stylesheets
+    ---------------------------------------->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;400;500;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/glightbox.min.css">
+    <link rel="stylesheet" href="assets/css/overlay-scrollbars.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+    <!----------------------------------------
+    preloader - start
+    ---------------------------------------->
+    <div class="preloader">
+        <div class='sk-folding-cube'>
+            <div class='sk-cube sk-cube-1'></div>
+            <div class='sk-cube sk-cube-2'></div>
+            <div class='sk-cube sk-cube-4'></div>
+            <div class='sk-cube sk-cube-3'></div>
+          </div>
+    </div>
+    <!----------------------------------------
+    preloader - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    top menu - start
+    ---------------------------------------->
+    <div class="top-menu">
+        <div class="top-menu-wrapper">
+            <div class="tagline">
+                <p>CBEX — The first fully programmable accounts management system.</p>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="login.html" class="link  link-sm link-grey link-ls">
+                            <span class="txt-upper f-w-500 lt-1">client login</span>
+                            
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html" class="link  link-sm link-grey link-ls">
+                            <span class="txt-upper f-w-500 lt-1">contact</span>
+                            
+                        </a>
+                    </li>
+                    <li class="phone lt-1">
+                        <a href="tel:123456789" class="link link-sm">
+                            <i class="fas fa-phone-alt c-primary"></i>
+                            <span>123 456 789</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    top menu - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    navigation - start
+    ---------------------------------------->
+    <div class="navigation">
+        <div class="navigation-wrapper">
+            <div class="navigation-inner">
+                <div class="navigation-logo">
+                    <a href="index.html">
+                        <img src="assets/images/logo.png" alt="cbex-logo">
+                    </a>
+                </div>
+                <div class="navigation-menu">
+                    <div class="mobile-header">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="assets/images/logo-white.png" alt="image">
+                            </a>
+                        </div>
+                        <ul>
+                            <li class="main-search">
+                                <div>
+                                    <i class="fas fa-search"></i>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="login.html">
+                                    <i class="fas fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="close-button">
+                                <i class="fas fa-times"></i>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="parent">
+                        <li class="has-child">
+                            <a href="index.html">
+                                <span>Home</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="index.html" class="link ">
+                                        <span>Home 1</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="index-2.html" class="link ">
+                                        <span>Home 2</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-child">
+                            <a href="about.html">
+                                <span>About</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="about.html" class="link ">
+                                        <span>About Us</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="team.html" class="link ">
+                                        <span>Our Team</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="careers.html" class="link ">
+                                        <span>Careers</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-child">
+                            <a href="#">
+                                <span>Services</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="service.html" class="link ">
+                                        <span>Services list</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service-detail.html" class="link ">
+                                        <span>Services detail</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-child">
+                            <a href="#">
+                                <span>Blog</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="blog.html" class="link ">
+                                        <span>Blog list</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog-detail.html" class="link ">
+                                        <span>Blog detail</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="has-child">
+                            <a href="login.html">
+                                <span>Others</span>
+                            </a>
+                            <ul class="child">
+                                <li>
+                                    <a href="login.html" class="link ">
+                                        <span>Login</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="signup.html" class="link ">
+                                        <span>Sign Up</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                        <li class="main-search">
+                            <a>
+                                <span><i class="fas fa-search"></i></span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="tagline">CBEX — The first fully programmable accounts management system.</p>
+                </div>
+                <div class="navigation-bar">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    navigation - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    hero section - start
+    ---------------------------------------->
+    <div class="hero-2">
+        <div class="hero-2-wrapper">
+            <div class="hero-2-slider swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="hero-2-content">
+                                        <h1>Smart financial services for firms and individuals.</h1>
+                                        <div class="button-group">
+                                            <a href="https://www.youtube.com/watch?v=p6nDYEkehTE" class="button glightbox button-3 txt-upper">
+                                                <div>
+                                                    <i class="far fa-play-circle"></i>
+                                                    <span>watch our video</span>
+                                                </div>
+                                            </a>
+                                            <p>Got questions? <a href="contact.html" class="link"><span class="txt-upper f-w-500">Talk to an Expert</span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-2-image">
+                                        <img class="main" src="assets/images/index-2-hero-img.png" alt="image">
+                                        <div class="circle">
+                                            <img src="assets/images/patterns/pattern-1.png" alt="pattern">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="hero-2-absolute-img" src="assets/images/patterns/pattern-3.png" alt="pattern">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-5">
+                                    <div class="hero-2-content">
+                                        <h1>Smart financial services for firms and individuals.</h1>
+                                        <div class="button-group">
+                                            <a href="https://www.youtube.com/watch?v=p6nDYEkehTE" class="button glightbox button-3 txt-upper">
+                                                <div>
+                                                    <i class="far fa-play-circle"></i>
+                                                    <span>watch our video</span>
+                                                </div>
+                                            </a>
+                                            <p>Got questions? <a href="contact.html" class="link"><span class="txt-upper f-w-500">Talk to an Expert</span></a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="hero-2-image">
+                                        <img class="main" src="assets/images/index-2-hero-img-2.png" alt="image">
+                                        <div class="circle">
+                                            <img src="assets/images/patterns/pattern-1.png" alt="pattern">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <img class="hero-2-absolute-img" src="assets/images/patterns/pattern-3.png" alt="pattern">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-2-pagination bullet-pagination"></div>
+        </div>
+    </div>
+    <!----------------------------------------
+    hero section - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    icon text section - start
+    ---------------------------------------->
+    <div class="icon-text">
+        <div class="icon-text-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="icon-text-box icon-text-box-large txt-center">
+                        <div class="icon-circle icon-circle-sm mg-center">
+                            <img src="assets/images/icons/icon-8.png" alt="icon">
+                        </div>
+                        <h4 class="f-w-400 c-grey">Hire a professional CPA & Accounting firm.</h4>
+                        <h3 class="f-w-400 c-dark-2">We combine more than 35 years of experience with the latest accounting technology to provide world-class services for a diverse roster of clients world-wide.</h3>
+                    </div>
+                </div>
+                <div class="row icon-text-row">
+                    <div class="col-lg-6">
+                        <div class="icon-text-box txt-center">
+                            <div class="icon-circle icon-circle-sm mg-center">
+                                <img src="assets/images/icons/icon-1.png" alt="icon">
+                            </div>
+                            <h3 class="ln-ht-34 f-w-400 c-dark-2">Latest Technology</h3>
+                            <h4 class="f-w-400 c-grey">We utilize the latest, state of the art accounting and finance technology to ensure that we stay both progressive and efficient.</h4>
+                            <a href="service.html" class="link"><span class="txt-upper f-w-500">learn more</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="icon-text-box txt-center">
+                            <div class="icon-circle icon-circle-sm mg-center">
+                                <img src="assets/images/icons/icon-2.png" alt="icon">
+                            </div>
+                            <h3 class="ln-ht-34 f-w-400 c-dark-2">Transparent Pricing</h3>
+                            <h4 class="f-w-400 c-grey">Enjoy our upfront, fixed price model. We charge by value, not by hours, giving you peace of mind and quality service.</h4>
+                            <a href="service.html" class="link"><span class="txt-upper f-w-500">learn more</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="icon-text-box txt-center">
+                            <div class="icon-circle icon-circle-sm mg-center">
+                                <img src="assets/images/icons/icon-3.png" alt="icon">
+                            </div>
+                            <h3 class="ln-ht-34 f-w-400 c-dark-2">Unlimited Contact</h3>
+                            <h4 class="f-w-400 c-grey">We believe in proactive & continuous communication with our clients. Calls and emails are built into our pricing, eliminating unwelcome surprises.</h4>
+                            <a href="service.html" class="link"><span class="txt-upper f-w-500">learn more</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="icon-text-box txt-center">
+                            <div class="icon-circle icon-circle-sm mg-center">
+                                <img src="assets/images/icons/icon-1.png" alt="icon">
+                            </div>
+                            <h3 class="ln-ht-34 f-w-400 c-dark-2">Service Guarantee</h3>
+                            <h4 class="f-w-400 c-grey">We provide a 100% Satisfaction Guarantee on all of our services. If you aren’t delighted we’ll simply refund your money.</h4>
+                            <a href="service.html" class="link"><span class="txt-upper f-w-500">learn more</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    icon text section - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    tab section - start
+    ---------------------------------------->
+    <div class="tab-section">
+        <div class="tab-section-wrapper pattern-bg">
+            <div class="container pattern-bg-content">
+                <div class="row d-flex align-items-center">
+                    <div class="col-lg-5 order-lg-1 order-2">
+                        <div class="tab-content" id="nav-tabContent">
+                            <div class="tab-pane fade show active" 
+                            id="nav-home" role="tabpanel" 
+                            aria-labelledby="nav-home-tab">
+                                <h2 class="c-dark-2">Professional services that make a difference</h2>
+                                <p class="large c-grey">At CBEX, enjoy custom fixed price agreements tailored to your needs and face-to-face meetings with our experienced professionals. Then rest assured knowing that your work is reviewed by senior staff and that tax returns are always double-checked.</p>
+                                <div class="button-group">
+                                    <a href="contact.html" class="button button-3 txt-upper">
+                                        <div>
+                                            <i class="far fa-envelope"></i>
+                                            <span>contact us</span>
+                                        </div>
+                                    </a>
+                                    <p>Got questions? <a href="contact.html" class="link"><span class="txt-upper f-w-500">Talk to an Expert</span></a></p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-profile" 
+                            role="tabpanel" aria-labelledby="nav-profile-tab">
+                                <h2 class="c-dark-2">CFO level work for medium size businesses.</h2>
+                                <p class="large c-grey">At CBEX, enjoy custom fixed price agreements tailored to your needs and face-to-face meetings with our experienced professionals. Then rest assured knowing that your work is reviewed by senior staff and that tax returns are always double-checked.</p>
+                                <div class="button-group">
+                                    <a href="contact.html" class="button button-3 txt-upper">
+                                        <div>
+                                            <i class="far fa-envelope"></i>
+                                            <span>contact us</span>
+                                        </div>
+                                    </a>
+                                    <p>Got questions? <a href="contact.html" class="link"><span class="txt-upper f-w-500">Talk to an Expert</span></a></p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-contact" 
+                            role="tabpanel" aria-labelledby="nav-contact-tab">
+                                <h2 class="c-dark-2">Expert advice on financial planning and more</h2>
+                                <p class="large c-grey">At CBEX, enjoy custom fixed price agreements tailored to your needs and face-to-face meetings with our experienced professionals. Then rest assured knowing that your work is reviewed by senior staff and that tax returns are always double-checked.</p>
+                                <div class="button-group">
+                                    <a href="contact.html" class="button button-3 txt-upper">
+                                        <div>
+                                            <i class="far fa-envelope"></i>
+                                            <span>contact us</span>
+                                        </div>
+                                    </a>
+                                    <p>Got questions? <a href="contact.html" class="link"><span class="txt-upper f-w-500">Talk to an Expert</span></a></p>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="nav-giving" 
+                            role="tabpanel" aria-labelledby="nav-giving-tab">
+                                <h2 class="c-dark-2">Charitable work for the community</h2>
+                                <p class="large c-grey">At CBEX, enjoy custom fixed price agreements tailored to your needs and face-to-face meetings with our experienced professionals. Then rest assured knowing that your work is reviewed by senior staff and that tax returns are always double-checked.</p>
+                                <div class="button-group">
+                                    <a href="contact.html" class="button button-3 txt-upper">
+                                        <div>
+                                            <i class="far fa-envelope"></i>
+                                            <span>contact us</span>
+                                        </div>
+                                    </a>
+                                    <p>Got questions? <a href="contact.html" class="link"><span class="txt-upper f-w-500">Talk to an Expert</span></a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 offset-lg-1 order-lg-2 order-1 tab-row swiper-container">
+                        <div class="nav nav-tabs swiper-wrapper" id="nav-tab" role="tablist">
+                            
+                                <div class="nav-link active swiper-slide" id="nav-home-tab" 
+                                data-bs-toggle="tab" data-bs-target="#nav-home" 
+                                type="button" role="tab" aria-controls="nav-home" 
+                                aria-selected="true">
+                                    <div>
+                                        <h3>taxtation</h3>
+                                        <p>Tax planning and complicated tax return preparation.</p>
+                                    </div>
+                                </div>
+                            
+                            
+                                <div class="nav-link swiper-slide" id="nav-profile-tab" 
+                                data-bs-toggle="tab" data-bs-target="#nav-profile" 
+                                type="button" role="tab" aria-controls="nav-profile" 
+                                aria-selected="false">
+                                    <div>
+                                        <h3>business</h3>
+                                        <p>CFO level work for small and medium sizes businesses.</p>
+                                    </div>
+                                </div>
+                          
+                          
+                                <div class="nav-link swiper-slide" id="nav-contact-tab" 
+                                data-bs-toggle="tab" data-bs-target="#nav-contact" 
+                                type="button" role="tab" aria-controls="nav-contact" 
+                                aria-selected="false">
+                                    <div>
+                                        <h3>consulting</h3>
+                                        <p>Expert advice on financial planning, mergers, estate and more.</p>
+                                    </div>
+                                </div>
+                                
+                                <div class="nav-link swiper-slide" id="nav-giving-tab" 
+                                data-bs-toggle="tab" data-bs-target="#nav-giving" 
+                                type="button" role="tab" aria-controls="nav-giving" 
+                                aria-selected="false">
+                                    <div>
+                                        <h3>giving</h3>
+                                        <p>Charitable work for the local community and beyound.</p>
+                                    </div>
+                                </div> 
+
+
+                                <div class="nav-link swiper-slide nav-link-placeholder" id="nav-giving-tab" 
+                                data-bs-toggle="tab" data-bs-target="#nav-giving" 
+                                type="button" role="tab" aria-controls="nav-giving" 
+                                aria-selected="false">
+                                    
+                                </div> 
+                 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    tab section - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    testimonial - start
+    ---------------------------------------->
+    <div class="testimonial testimonial-1">
+        <!-- Background image is handled in scss in the _main.scss file on the .testimonial-wrapper class -->
+        <div class='testimonial-wrapper'>
+            <div class="container">
+                <div class="row">
+                    <div class="testimonial-heading-content">
+                        <h2 class="f-w-400 heading-40">Hear from what others say about our company</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="slider box-slider">
+                        <div class="swiper-container box-slider-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide box-slide testimonial-slide">
+                                    <div class="box-slide-inner">
+                                        <p class="c-grey">“I was looking out for a larger CPA firm that was small enough to know who I am and build a relationship with me, yet large enough to have different internal specialists and viewpoints.”</p>
+                                        <h5 class="txt-sm txt-upper lt-1 c-primary">john miller</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box-slider-pagination bullet-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    testimonial - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    cta - start
+    ---------------------------------------->
+    <div class="cta-section b-primary">
+        <div class="cta-section-wrapper section-wrapper" style="background-image: url('assets/images/patterns/pattern.png');">
+            <div class="container">
+                <div class="row">
+                    <div class="cta-section-content txt-center">
+                        <h2 class="c-white f-w-400 heading-40 mg-center">Hire a professional CPA & Accounting firm.</h2>
+                        <div class="button-group">
+                            <a href="contact.html" class="button button-1 txt-upper">
+                                <div>
+                                    <i class="far fa-envelope"></i>
+                                    <span>book appointment</span>
+                                </div>
+                            </a>
+                            <a href="contact.html" class="button button-2 txt-upper">
+                                <div>
+                                    <i class="fas fa-headphones"></i>
+                                    <span>talk to an expert</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------------------
+    cta - end
+    ---------------------------------------->
+
+    <!----------------------------------------
+    footer - start
+    ---------------------------------------->
+    <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-content">
+                            <h6 class="txt-sm c-primary f-w-500 txt-upper">contact</h6>
+                            <ul class="txt-sm-1 c-grey number-list">
+                                <!-- <li>P<a href="tel:123.456.7890">123.456.7890</a></li> -->
+                                <li>
+                                    P
+                                    <a href="tel:123.456.7890" class="link  link-md link-grey">
+                                        <span>123.456.7890</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    F
+                                    <a href="tel:123.456.7890" class="link  link-md link-grey">
+                                        <span>123.456.7890</span>
+                                        
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="footer-content">
+                            <h6 class="txt-sm c-primary f-w-500 txt-upper">location</h6>
+                            <p class="c-grey ln-ht-3">596 Random Street Rd,<br>Melbourne, Australia</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-content">
+                            <h6 class="txt-sm c-primary f-w-500 txt-upper">company</h6>
+                            <ul class="txt-sm-1 c-grey">
+                                <li>
+                                    <a href="about.html" class="link  link-md link-grey">
+                                        <span>About</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service.html" class="link  link-md link-grey">
+                                        <span>Services</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog.html" class="link  link-md link-grey">
+                                        <span>Industries</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="service-detail.html" class="link  link-md link-grey">
+                                        <span>Technology</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="about.html" class="link  link-md link-grey">
+                                        <span>Resources</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="team.html" class="link  link-md link-grey">
+                                        <span>In the Media</span>
+                                        
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="careers.html" class="link  link-md link-grey">
+                                        <span>Careers</span>
+                                        
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer-content">
+                            <h6 class="txt-sm c-primary f-w-500 txt-upper">social</h6>
+                            <ul class="txt-sm-1 c-grey social-list">
+                                <li><a href="#" class="link  link-md link-grey">
+                                    <i class="fab fa-twitter-square c-light"></i>
+                                    <span>
+                                        <span>Twitter</span>
+                                    </span>
+                                    
+                                </a></li>
+                                <li><a href="#" class="link  link-md link-grey">
+                                    <i class="fab fa-facebook-square c-light"></i>
+                                    <span>
+                                        <span>Facebook</span>
+                                    </span>
+                                    
+                                </a></li>
+                                <li><a href="#" class="link  link-md link-grey">
+                                    <i class="fab fa-youtube c-light"></i>
+                                    <span>
+                                        <span>Youtube</span>
+                                    </span>
+                                    
+                                </a></li>
+                                <li><a href="#" class="link  link-md link-grey">
+                                    <i class="fab fa-linkedin c-light"></i>
+                                    <span>
+                                        <span>Linkedin</span>
+                                    </span>
+                                    
+                                </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h6 class="copyright txt-sm c-grey">&copy; 2021 CBEX</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!----------------------------------------
+    footer - end
+    ---------------------------------------->
+
+
+    </div>
+
+    <!----------------------------------------
+    scripts
+    ---------------------------------------->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/overlay-scrollbars.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
