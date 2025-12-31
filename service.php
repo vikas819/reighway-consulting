@@ -33,8 +33,8 @@ require_once 'includes/header.php';
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="service-header">
-                            <h2 class="f-w-400 l-t-44">Legal Support Services / Legal Process Outsourcing (LPO) for Overseas Firms</h2>
-                            <p class="paragraph-lg c-grey">We deliver high-quality legal support services to international law firms, enabling fee-earners to concentrate on complex, high-value work while we manage essential operational and analytical tasks.</p>
+                            <h2 class="f-w-400 l-t-44">Legal Process Outsourcing (LPO) for Overseas Firms </h2>
+                            <p class="paragraph-lg c-grey">Transforming Legal Workloads into Competitive Advantages. We deliver high-quality legal support services to international law firms, enabling fee-earners to concentrate on complex, high-value work while we manage essential operational and analytical tasks. Our experienced team becomes a seamless extension of your legal practice, delivering consistent excellence across all touchpoints. </p>
                         </div>
                     </div>
                 </div>
@@ -43,10 +43,28 @@ require_once 'includes/header.php';
                     <div class="col-lg-4 mb-3">
                         <div class="icon-box-slide-inner icon-box txt-center">
                             <div class="icon-circle icon-circle-sm mg-center">
+                                <img src="assets/images/icons/icon-1.png" alt="Contract Lifecycle Management (CLM) Icon">
+                            </div>
+                            <h4 class="f-w-500">Contract Lifecycle Management (CLM)</h4>
+                            <p class="c-grey">From drafting and abstraction to redlining and repository management. We ensure your contract portfolio is organized and risk mitigated. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-3">
+                        <div class="icon-box-slide-inner icon-box txt-center">
+                            <div class="icon-circle icon-circle-sm mg-center">
+                                <img src="assets/images/icons/icon-1.png" alt="Document Review & eDiscovery Icon">
+                            </div>
+                            <h4 class="f-w-500">Document Review & eDiscovery</h4>
+                            <p class="c-grey"> Leveraging advanced workflows to manage large-scale data sets for litigation, mergers, and acquisitions. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-3">
+                        <div class="icon-box-slide-inner icon-box txt-center">
+                            <div class="icon-circle icon-circle-sm mg-center">
                                 <img src="assets/images/icons/icon-1.png" alt="Paralegal Support Icon">
                             </div>
                             <h4 class="f-w-500">Paralegal Support</h4>
-                            <p class="c-grey">Document review, legal research and analysis, contract abstraction, due-diligence support, and case preparation delivered by experienced legal professionals.</p>
+                            <p class="c-grey">Our teams are trained in UK legal terminology, CPR (Civil Procedure Rules), and land registry protocols. Legal research and analysis, contract abstraction, due-diligence support, and case preparation delivered by experienced legal professionals. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-3">
@@ -55,7 +73,7 @@ require_once 'includes/header.php';
                                 <img src="assets/images/icons/icon-2.png" alt="Case Management Icon">
                             </div>
                             <h4 class="f-w-500">Case Management</h4>
-                            <p class="c-grey">Full workflow design, tracking, and administrative coordination throughout the case lifecycle.</p>
+                            <p class="c-grey">Full workflow design, tracking, and administrative coordination throughout the case lifecycle. We implement efficient systems that keep matters progressing smoothly and on schedule. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-3">
@@ -63,8 +81,8 @@ require_once 'includes/header.php';
                             <div class="icon-circle icon-circle-sm mg-center">
                                 <img src="assets/images/icons/icon-3.png" alt="Compliance & Audit Icon">
                             </div>
-                            <h4 class="f-w-500">Compliance & Audit</h4>
-                            <p class="c-grey">Ensuring documentation and processes align with stringent UK regulatory and quality standards.</p>
+                            <h4 class="f-w-500">Compliance & Risk Audit</h4>
+                            <p class="c-grey">We perform rigorous AML (Anti-Money Laundering) and KYC (Know Your Customer) checks to ensure your firm remains compliant with SRA standards. Ensuring documentation and processes align with stringent UK regulatory and quality standards. Our rigorous checks protect your firm from compliance risks and maintain audit readiness. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-3">
@@ -73,7 +91,7 @@ require_once 'includes/header.php';
                                 <img src="assets/images/icons/icon-1.png" alt="Managed Legal Support Icon">
                             </div>
                             <h4 class="f-w-500">Managed Legal Support</h4>
-                            <p class="c-grey">End-to-end operational management including compliance checks, secure document handling, reporting, and cross-team coordination.</p>
+                            <p class="c-grey">End-to-end operational management including compliance checks, secure document handling, reporting, and cross-team coordination. We handle the complexity so you can focus on client service. </p>
                         </div>
                     </div>
                     <div class="col-lg-4 mb-3">
@@ -82,7 +100,7 @@ require_once 'includes/header.php';
                                 <img src="assets/images/icons/icon-3.png" alt="Consulting for Overseas Operations Icon">
                             </div>
                             <h4 class="f-w-500">Consulting for Overseas Operations</h4>
-                            <p class="c-grey">Support with cross-border communication, vendor management, implementation of secure remote-work systems, and scalable resourcing strategies.</p>
+                            <p class="c-grey">Support with cross-border communication, vendor management, implementation of secure remote-work systems, and scalable resourcing strategies tailored to international legal practices. </p>
                         </div>
                     </div>
                 </div>
@@ -108,35 +126,46 @@ require_once 'includes/header.php';
                     <div class="row">
                         <div class="icon-box-section-heading-content">
                             <h2 class="f-w-400 heading-60">Managed IT Infrastructure for Legal and Professional Services.</h2>
-                            <p class="paragraph-lg c-grey heading-60">We provide secure, resilient, and proactive IT support tailored to the demanding requirements of legal practices and professional service firms.</p>
+                            <p class="paragraph-lg c-grey heading-60">Resilient Technology for the Modern Legal Practice. Sensitive legal data requires more than just "IT support." It requires a fortress. We build and manage the digital environments that power global professional services </p>
+                            <p class="paragraph-lg c-grey heading-60">We provide secure, resilient, and proactive IT support tailored to the demanding requirements of legal practices and professional service firms. Our technology solutions prioritize security, reliability, and business continuity. </p>
+                            <p class="paragraph-lg c-grey heading-60">In today's digital landscape, your IT infrastructure must be both robust and flexible. We deliver enterprise-grade technology management that scales with your practice while maintaining the highest security standards required for sensitive legal work. </p>
                         </div>
                     </div>
                     <div class="row icon-box-slider">
-                        <div class="col-lg-4 mb-3">
+                        <div class="col-lg-6 mb-3">
                             <div class="icon-box-slide-inner icon-box txt-center">
                                 <div class="icon-circle icon-circle-sm mg-center">
                                     <img src="assets/images/icons/icon-1.png" alt="Secure Remote Access Icon">
                                 </div>
                                 <h4 class="f-w-500">Secure Remote Access</h4>
-                                <p class="c-grey">Implementation and management of encrypted environments, virtual desktops, and controlled access systems.</p>
+                                <p class="c-grey">We deploy VDI (Virtual Desktop Infrastructure) and multi-factor authentication (MFA) to ensure work-from-anywhere flexibility without compromising security. Implementation and management of encrypted environments, virtual desktops, and controlled access systems. </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-3">
+                        <div class="col-lg-6 mb-3">
                             <div class="icon-box-slide-inner icon-box txt-center">
                                 <div class="icon-circle icon-circle-sm mg-center">
                                     <img src="assets/images/icons/icon-2.png" alt="Cloud Solutions Icon">
                                 </div>
                                 <h4 class="f-w-500">Cloud Solutions</h4>
-                                <p class="c-grey">Optimization, administration, and integration of Azure and Microsoft 365 ecosystems.</p>
+                                <p class="c-grey">Optimization, administration, and integration of Azure and Microsoft 365 ecosystems. </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-3">
+                        <div class="col-lg-6 mb-3">
                             <div class="icon-box-slide-inner icon-box txt-center">
                                 <div class="icon-circle icon-circle-sm mg-center">
                                     <img src="assets/images/icons/icon-3.png" alt="24/7 Technical Support Icon">
                                 </div>
                                 <h4 class="f-w-500">24/7 Technical Support</h4>
-                                <p class="c-grey">Continuous monitoring and rapid issue resolution to minimize downtime and maintain operational continuity.</p>
+                                <p class="c-grey">Continuous monitoring and rapid issue resolution to minimize downtime and maintain operational continuity. Monitoring for data breaches, phishing attempts, and ransomware, tailored for the legal sector. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <div class="icon-box-slide-inner icon-box txt-center">
+                                <div class="icon-circle icon-circle-sm mg-center">
+                                    <img src="assets/images/icons/icon-3.png" alt="24/7 Technical Support Icon">
+                                </div>
+                                <h4 class="f-w-500">Legal-Tech Integration: </h4>
+                                <p class="c-grey">Expert support for industry-standard software like Relativity, iManage, Clio, and LexisNexis.  </p>
                             </div>
                         </div>
                     </div>

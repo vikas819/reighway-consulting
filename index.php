@@ -153,36 +153,46 @@ require_once 'includes/header.php';
                 <div class="container">
                     <div class="row">
                         <div class="icon-box-section-heading-content">
-                            <h2 class="f-w-400 heading-40">Why Partner with Us?</h2>
+                            <h2 class="f-w-400 heading-40">Why Global Leaders Choose Us </h2>
+                            <p class=" heading-40">n an era of rising costs and complex regulations, Reighway provides the agility you need to scale. We don’t just fill seats; we optimize your entire delivery model. </p>
                         </div>
                     </div>
                     
                     <div class="row icon-box-slider">
-                        <div class="col-lg-4 mb-3">
+                        <div class="col-lg-6 mb-3">
                             <div class="icon-box-slide-inner icon-box txt-center">
                                 <div class="icon-circle icon-circle-sm mg-center">
                                     <img src="assets/images/icons/icon-1.png" alt="International Expertise Icon">
                                 </div>
                                 <h4 class="f-w-500">International Expertise</h4>
-                                <p class="c-grey">We connect overseas legal functions with rigorously qualified talent.</p>
+                                <p class="c-grey">We connect overseas legal functions with rigorously qualified talent across borders. Our global network ensures you access the best professionals regardless of geographic constraints, bringing diverse perspectives and specialized knowledge to your organization. </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-3">
+                        <div class="col-lg-6 mb-3">
                             <div class="icon-box-slide-inner icon-box txt-center">
                                 <div class="icon-circle icon-circle-sm mg-center">
                                     <img src="assets/images/icons/icon-2.png" alt="Operational Precision Icon">
                                 </div>
                                 <h4 class="f-w-500">Operational Precision</h4>
-                                <p class="c-grey">We manage onboarding, workflows, and performance oversight, allowing you to focus on core legal operations.</p>
+                                <p class="c-grey">We manage onboarding, workflows, and performance oversight, allowing you to focus on core legal operations. Our systematic approach ensures seamless integration, consistent quality delivery, and proactive management of all operational aspects. </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 mb-3">
+                        <div class="col-lg-6 mb-3">
                             <div class="icon-box-slide-inner icon-box txt-center">
                                 <div class="icon-circle icon-circle-sm mg-center">
                                     <img src="assets/images/icons/icon-3.png" alt="Compliance Assurance Icon">
                                 </div>
                                 <h4 class="f-w-500">Compliance Assurance</h4>
-                                <p class="c-grey">Our engagements follow international standards, GDPR requirements, and secure remote-work protocols</p>
+                                <p class="c-grey">Our engagements follow international standards, GDPR requirements, and secure remote-work protocols. We prioritize data protection and regulatory adherence, giving you complete peace of mind in every engagement. </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-3">
+                            <div class="icon-box-slide-inner icon-box txt-center">
+                                <div class="icon-circle icon-circle-sm mg-center">
+                                    <img src="assets/images/icons/icon-3.png" alt="Compliance Assurance Icon">
+                                </div>
+                                <h4 class="f-w-500">Seamless Integration</h4>
+                                <p class="c-grey">Our team functions as a "white-label" extension of your firm—your clients won't feel the distance; they will only feel the quality. </p>
                             </div>
                         </div>
                     </div>
@@ -256,10 +266,11 @@ require_once 'includes/header.php';
     cta - start
     ---------------------------------------->
     <div class="cta-section b-primary">
-        <div class="cta-section-wrapper section-wrapper" style="background-image: url('assets/images/patterns/pattern.png');">
+        <div class="cta-section-wrapper section-wrapper" style="background-image: url('assets/images/patterns/pattern.png');padding: 9.2rem 0 9rem 0;">
             <div class="container">
                 <div class="row">
                     <div class="cta-section-content txt-center">
+                        <h2 class="c-white f-w-400 heading-40 mg-center">We are currently expanding our team of Paralegals to support active engagements with UK clients.</h2>
                         <div class="button-group">
                             <a href="career.php" class="button button-1 txt-upper">
                                 <div>

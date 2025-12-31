@@ -28,8 +28,8 @@
   border-radius: 50%;
   position: absolute;
   inset-inline-start: 0;               /* logical left */
-  top: 50%;
-  transform: translateY(-50%);
+  top: 13%;
+  /* transform: translateY(-50%); */
   background: #ba2026;                 /* primary brand color */
   box-shadow: 0 0 0 4px rgba(13,110,253,0.06);
 }

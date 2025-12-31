@@ -15,7 +15,7 @@ require_once 'includes/header.php';
                             <ul>
                                 <li>
                                     <a href="privacy-policy.php" class="link link-md active">
-                                        <span class="f-w-500">Privacy Policy</span>
+                                        <span class="f-w-500">Youre Privacy matters </span>
                                     </a>
                                 </li>
                             </ul>
@@ -38,22 +38,47 @@ require_once 'includes/header.php';
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="icon-text-2-header">
-                            <h2 class="headin-lg">Privacy & Policy</h2>
-                            <p class="paragraph c-grey">We respect your privacy. We are committed to protecting your privacy. Any information submitted through our website is used solely for recruitment, consultation, or inquiry purposes.</p>
+                            <h2 class="headin-lg">Our Gold Standard in Data Privacy </h2>
+                            <p class="paragraph c-grey">In the legal world, confidentiality is everything. Reighway Consulting operates under a Zero-Trust Security Framework.  </p>
+                            <p class="paragraph c-grey">We respect your privacy.  We are committed to protecting your privacy. Any information submitted through our website is used solely for recruitment, consultation, or inquiry purposes. We maintain strict protocols to ensure your data remains secure and confidential. </p>
                             <ul class="dotted">
-                                <li>We do not sell or share personal data with unrelated third parties.</li>
-                                <li>Data is stored securely and accessed only for legitimate operational needs.</li>
-                                <li>You may request access, correction, or deletion of your data at any time by contacting <a href="mailto:privacy@reighway.consulting">privacy@reighway.consulting</a>.</li>
-                                <li>Our processes comply with applicable international data-protection standards, including GDPR.</li>
+                                <li>No Data Sharing- We do not sell or share personal data with unrelated third parties. Your information stays within our organization and is used exclusively for legitimate business purposes. </li>
+                                <li>Secure Storage- Data is stored securely using industry-standard encryption and accessed only for legitimate operational needs by authorized personnel. </li>
+                                <li>
+                                    Physical & Digital Security: Our remote work protocols include encrypted hardware, restricted USB access, and screen-sharing prohibitions for sensitive matters. 
+                                </li>
+                                <li>Right to Erasure- We respect your data rights. You can request a data audit or deletion at any time via  <a href="mailto:privacy@reighway.com">privacy@reighway.com</a>.</li>
+                                <li>GDPR Compliance- Our processes comply with applicable international data-protection standards, including GDPR and other relevant privacy regulations. We are fully compliant with General Data Protection Regulations, ensuring all "Personal Data" is handled with extreme care. </li>
+                                <li>
+                                    Annual Audits: We undergo regular internal and third-party audits to ensure our security protocols evolve as fast as the threats do. 
+                                </li>
                             </ul>
-                            <h3 class="heading-sm f-w-500">Data Collection and Use</h3>
-                            <p class="paragraph c-grey">We collect information that you provide directly to us, such as when you fill out a contact form, apply for a position, or communicate with us. This may include your name, email address, phone number, resume, and other relevant information.</p>
-                            <h3 class="heading-sm f-w-500">Data Security</h3>
-                            <p class="paragraph c-grey">We implement appropriate technical and organizational measures to protect your personal data against unauthorized access, alteration, disclosure, or destruction.</p>
-                            <h3 class="heading-sm f-w-500">Your Rights</h3>
-                            <p class="paragraph c-grey">Under GDPR and other applicable data protection laws, you have the right to access, rectify, erase, restrict processing, object to processing, and data portability regarding your personal data.</p>
-                            <h3 class="heading-sm f-w-500">Contact Us</h3>
-                            <p class="paragraph c-grey">If you have any questions about this Privacy Policy or our data practices, please contact us at <a href="mailto:privacy@reighway.consulting">privacy@reighway.consulting</a>.</p>
+                            <p class="paragraph c-grey">
+                                Questions about our privacy practices? We're happy to provide detailed information about how we handle your data. Contact us at <a href="mailto:privacy@reighway.com">privacy@reighway.com</a> for more information. 
+                            </p>
+                            <h3 class="heading-sm f-w-500">Global Legal & Technical Operations / Talent Solutions Providers</h3>
+                            <ol class="dotted">
+                                <li>Lexitas — Legal talent outsourcing, document review, contract support, interim staffing and legal research services. https://www.lexitaslegal.com/solutions/legal-talent-outsourcing?utm_source=chatgpt.com <br/>
+Website: https://www.lexitaslegal.com  </li>
+                                <li>Mindcrest (DWF Mindcrest) — Global legal services outsourcing covering litigation support, contracts, compliance, research, analytics.  <br/>
+Website: https://www.mindcrest.com </li>
+                                <li>Emapta — Offshore legal outsourcing and talent solutions building global legal operations teams.   <br/> 
+Website: https://emapta.com/industries/legal-outsourcing-solutions/  </li>
+                                <li>LawFlex — Flexible global legal talent, legal operations consultancy, legal process outsourcing.  <br/>  
+Website: https://lawflex.com  </li>
+                                <li>Solvo Global — Legal outsourcing and business process outsourcing for legal support roles and operational tasks.    <br/>
+Website: https://solvoglobal.com  </li>
+                                <li>Work for Impact — Legal staffing and outsourcing solutions, including legal operations and project teams.    <br/>
+Website: https://www.workforimpact.com/legal-staffing  </li>
+                                <li>Magellan Solutions — Legal process outsourcing focusing on back-office legal support services.    <br/>
+Website: https://www.magellan-solutions.com/industry/legal-outsourcing/  </li>
+                                <li>UnitedLex — Legal operations consulting and managed legal services combining strategy, technology and data analytics.    <br/>
+Website: https://unitedlex.com  </li>
+                                <li>Infosys BPM (Legal Process Outsourcing) — Legal process management, eDiscovery, contract lifecycle management and legal research services integrated with tech and BPM.    <br/>
+Website: https://www.infosysbpm.com/services/legal-process-outsourcing.html  </li>
+                                <li>Vahura — Legal recruitment and consulting with market intelligence and talent strategy capabilities (India-focused).    <br/>
+Website: https://vahura.com/legal-department-consulting  </li>
+                            </ol>
                         </div>
                     </div>
                 </div>
