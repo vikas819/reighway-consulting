@@ -1,0 +1,64 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  deploy:
+    name: Deploy to Server
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan -p 65002 -H 145.79.212.148 >> ~/.ssh/known_hosts
+
+      - name: Create deployment package
+        run: |
+          # Exclude unnecessary files
+          tar --exclude='.git' \
+              --exclude='.github' \
+              --exclude='node_modules' \
+              --exclude='.DS_Store' \
+              --exclude='*.md' \
+              --exclude='old' \
+              -czf deploy.tar.gz .
+
+      - name: Deploy to server
+        env:
+          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
+        run: |
+          # Install sshpass for password authentication (if using password)
+          sudo apt-get update && sudo apt-get install -y sshpass
+          
+          # Upload files using rsync (more efficient)
+          sshpass -p "$SSH_PASSWORD" rsync -avz --delete \
+            -e "ssh -p 65002 -o StrictHostKeyChecking=no" \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='node_modules' \
+            --exclude='.DS_Store' \
+            --exclude='*.md' \
+            --exclude='old' \
+            ./ u152908012@145.79.212.148:domains/reighway.com/public_html/
+
+      - name: Cleanup
+        run: |
+          rm -f deploy.tar.gz
+          rm -f ~/.ssh/id_rsa
+
+      - name: Deployment success
+        run: echo "✅ Deployment completed successfully!"
+

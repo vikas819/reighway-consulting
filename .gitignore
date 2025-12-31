@@ -1,0 +1,47 @@
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build files
+dist/
+build/
+*.min.js.map
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Old directory (if you want to exclude it)
+# old/
+
