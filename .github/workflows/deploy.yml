@@ -3,8 +3,7 @@ name: Deploy to Production
 on:
   push:
     branches:
-      - main
-      - master
+      - production
   workflow_dispatch: # Allows manual triggering
 
 jobs:
@@ -18,46 +17,40 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup SSH
+      - name: Install dependencies
+        run: |
+          sudo apt-get update && sudo apt-get install -y sshpass
+
+      - name: Add server to known hosts
         run: |
           mkdir -p ~/.ssh
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
           ssh-keyscan -p 65002 -H 145.79.212.148 >> ~/.ssh/known_hosts
-
-      - name: Create deployment package
-        run: |
-          # Exclude unnecessary files
-          tar --exclude='.git' \
-              --exclude='.github' \
-              --exclude='node_modules' \
-              --exclude='.DS_Store' \
-              --exclude='*.md' \
-              --exclude='old' \
-              -czf deploy.tar.gz .
 
       - name: Deploy to server
         env:
           SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
         run: |
-          # Install sshpass for password authentication (if using password)
-          sudo apt-get update && sudo apt-get install -y sshpass
-          
-          # Upload files using rsync (more efficient)
+          # Deploy files using rsync with password authentication
           sshpass -p "$SSH_PASSWORD" rsync -avz --delete \
-            -e "ssh -p 65002 -o StrictHostKeyChecking=no" \
+            -e "ssh -p 65002 -o StrictHostKeyChecking=no -o UserKnownHostsFile=~/.ssh/known_hosts" \
             --exclude='.git' \
             --exclude='.github' \
             --exclude='node_modules' \
             --exclude='.DS_Store' \
             --exclude='*.md' \
             --exclude='old' \
+            --exclude='.gitignore' \
             ./ u152908012@145.79.212.148:domains/reighway.com/public_html/
 
-      - name: Cleanup
+      - name: Set proper file permissions
+        env:
+          SSH_PASSWORD: ${{ secrets.SSH_PASSWORD }}
         run: |
-          rm -f deploy.tar.gz
-          rm -f ~/.ssh/id_rsa
+          sshpass -p "$SSH_PASSWORD" ssh -p 65002 -o StrictHostKeyChecking=no u152908012@145.79.212.148 \
+            "cd domains/reighway.com/public_html && \
+             find . -type f -exec chmod 644 {} \; && \
+             find . -type d -exec chmod 755 {} \; && \
+             chmod 600 .htaccess 2>/dev/null || true"
 
       - name: Deployment success
         run: echo "✅ Deployment completed successfully!"
