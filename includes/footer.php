@@ -103,7 +103,7 @@ $base_path = '';
                 </div>
                 <div class="row">
                     <div class="col-lg-12">
-                        <h6 class="copyright txt-sm c-grey">&copy; <?php echo date('Y'); ?> Reighway Consulting</h6>
+                        <h6 class="copyright txt-sm c-grey">&copy; <?php echo date('Y'); ?> Reighway Consulting. <a href="privacy-policy.php">Privacy Policy</a></h6>
                     </div>
                 </div>
             </div>

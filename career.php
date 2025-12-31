@@ -44,22 +44,25 @@ require_once 'includes/header.php';
                     <div class="col-lg-9">
                         <div class="icon-text-2-header">
                             <h2 class="headin-lg">Build a Global Career from Anywhere</h2>
-                            <p class="paragraph c-grey">At Reighway, you aren't just an employee; you are a vital part of a UK-facing legal or technical team. We offer the chance to work on high-profile international cases and projects.</p>
+                            <p class="paragraph c-grey">At Reighway, you aren’t just an employee; you are a vital part of a UK-facing legal or technical team. We offer the chance to work on high-profile international cases and projects projects that make a real difference. </p>
+                            <p class="paragraph c-grey">At Reighway Consulting, we believe that the best work happens when high-performing individuals are given the right tools and the right opportunities. You won’t just be "outsourced"—you will be an integral part of an international legal ecosystem.  </p>
+                            
                         </div>
                     </div>
                 </div>
                 <div class="row">
+                    <h3 class="heading-sm f-w-500">Current Openings: </h3>
                     <div class="career-accordion" id="careeerAccordion">
                         <!----------------------------------------
                         first accordion item - start
                         ---------------------------------------->
                         <div class="career-accordion-item accordion-item">
-                            <div class="career-accordion-item-header accordion-header" id="heading0">
+                            <div class="career-accordion-item-header accordion-header" id="heading0" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
                                 <div class="career-accordion-heading">
                                     <div class="content">
-                                        <h3 class="c-dark-2 f-w-500">Paralegal (UK Legal Support)</h3>
-                                        <p class="paragraph paragraph-sm f-w-500 c-primary txt-upper">Remote / Hybrid (Supporting UK Client)</p>
-                                        <p class="teaser">We are seeking a detail-oriented Paralegal to support legal matters for a distinguished UK law firm. This role involves delivering high-quality case support, managing documentation, and ensuring alignment with UK legal frameworks.</p>
+                                        <h3 class="c-dark-2 f-w-500">Paralegal </h3>
+                                        <p class="paragraph paragraph-sm f-w-500 c-primary txt-upper">UK Legal Support | Remote/Hybrid </p>
+                                        <p class="teaser">We are seeking a detail-oriented Paralegal to support legal matters for a distinguished UK law firm. This role involves delivering high-quality case support, managing documentation, and ensuring alignment with UK legal frameworks. </p>
                                     </div>
                                     <div class="button-group collapsed" data-bs-toggle="collapse" data-bs-target="#collapse0" aria-expanded="true" aria-controls="collapse0">
                                         <a href="#" class="button button-3 txt-upper">
@@ -77,21 +80,16 @@ require_once 'includes/header.php';
                                         <div class="col-lg-10">
                                             <h3 class="heading-sm f-w-500">Key Responsibilities:</h3>
                                             <ul class="dotted">
-                                                <li>Draft legal documents, summaries, and contract materials.</li>
-                                                <li>Conduct document review, legal research, and contract management tasks.</li>
-                                                <li>Support case preparation and maintain organized electronic case files.</li>
-                                                <li>Ensure adherence to UK legal requirements and terminology.</li>
-                                                <li>Coordinate communications with internal teams and client stakeholders.</li>
+                                                <li>Draft legal documents, summaries, and contract materials with precision </li>
+                                                <li>Conduct document review, legal research, and contract management tasks</li>
+                                                <li>Support case preparation and maintain organized electronic case files </li>
+                                                <li>Ensure adherence to UK legal requirements and terminology </li>
+                                                <li>Coordinate communications with internal teams and client stakeholders</li>
                                             </ul>
                                             <h3 class="heading-sm f-w-500">Requirements:</h3>
-                                            <ul class="dotted">
-                                                <li>Degree in Law (LLB or equivalent) or recognized paralegal certification.</li>
-                                                <li>Familiarity with UK legal terminology and processes.</li>
-                                                <li>Excellent written and verbal communication skills.</li>
-                                                <li>Proficiency in Case Management Systems (CMS) and digital workflow tools.</li>
-                                            </ul>
+                                            <p>Degree in Law (LLB or equivalent) or recognized paralegal certification, familiarity with UK legal terminology and processes, excellent communication skills, and proficiency in Case Management Systems.</p>
 
-                                            <form method="POST" action="mailto:careers@reighway.consulting" enctype="multipart/form-data">
+                                            <form method="POST" action="mailto:careers@reighway.com" enctype="multipart/form-data">
                                                 <h3 class="heading-sm form-heading f-w-500">Apply for the Position</h3>
                                                 <div class="input-group">
                                                     <input type="text" name="first_name" placeholder="First name" required>
@@ -140,12 +138,12 @@ require_once 'includes/header.php';
                         second accordion item - start
                         ---------------------------------------->
                         <div class="career-accordion-item accordion-item">
-                            <div class="career-accordion-item-header accordion-header" id="heading1">
+                            <div class="career-accordion-item-header accordion-header" id="heading1" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                 <div class="career-accordion-heading">
                                     <div class="content">
-                                        <h3 class="c-dark-2 f-w-500">IT Support Engineer</h3>
-                                        <p class="paragraph paragraph-sm f-w-500 c-primary txt-upper">Remote / Hybrid (Supporting UK Client)</p>
-                                        <p class="teaser">We are recruiting an IT Support Engineer to maintain the integrity, security, and performance of technical systems used by our UK legal partners. This role focuses on secure remote operations and rapid issue resolution.</p>
+                                        <h3 class="c-dark-2 f-w-500">Managed Services IT Engineer </h3>
+                                        <p class="paragraph paragraph-sm f-w-500 c-primary txt-upper">UK Client Support | Remote/Hybrid </p>
+                                        <p class="teaser">We are recruiting an IT Support Engineer to maintain the integrity, security, and performance of technical systems used by our UK legal partners. This role focuses on secure remote operations and rapid issue resolution. </p>
                                     </div>
                                     <div class="button-group" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                         <a href="#" class="button button-3 txt-upper">
@@ -163,20 +161,15 @@ require_once 'includes/header.php';
                                         <div class="col-lg-10">
                                             <h3 class="heading-sm f-w-500">Key Responsibilities:</h3>
                                             <ul class="dotted">
-                                                <li>Troubleshoot hardware, software, and network issues.</li>
-                                                <li>Manage secure VPNs, remote desktops, and user environments.</li>
-                                                <li>Maintain compliance with GDPR and data-protection standards.</li>
-                                                <li>Support legal-specific software and ensure system uptime.</li>
+                                                <li>Troubleshoot hardware, software, and network issues efficiently. </li>
+                                                <li>Manage secure remote desktops, and user environments. </li>
+                                                <li>Maintain compliance with GDPR and data-protection standards. </li>
+                                                <li>Support legal-specific software and ensure system uptime. </li>
                                             </ul>
                                             <h3 class="heading-sm f-w-500">Requirements:</h3>
-                                            <ul class="dotted">
-                                                <li>Minimum 3 years of experience in Technical Support or IT Administration.</li>
-                                                <li>Strong knowledge of Azure and Office 365 environments.</li>
-                                                <li>High capability for problem solving in time-critical situations.</li>
-                                                <li>Certifications such as CompTIA or Microsoft are preferred.</li>
-                                            </ul>
+                                            <p>Minimum 3 years of experience in Technical Support or IT Administration, strong knowledge of Azure and Office 365 environments, excellent problem-solving capabilities, and relevant certifications preferred. </p>
 
-                                            <form method="POST" action="mailto:careers@reighway.consulting" enctype="multipart/form-data">
+                                            <form method="POST" action="mailto:careers@reighway.com" enctype="multipart/form-data">
                                                 <h3 class="heading-sm form-heading f-w-500">Apply for the Position</h3>
                                                 <div class="input-group">
                                                     <input type="text" name="first_name" placeholder="First name" required>
@@ -226,13 +219,14 @@ require_once 'includes/header.php';
                 <div class="row">
                     <div class="col-lg-9">
                         <div class="service-header">
-                            <h2 class="f-w-400 l-t-44">Why Join Us?</h2>
+                            <h2 class="f-w-400 l-t-44">Why Join Reighway Consulting?  </h2>
                             <p class="teaser">
-                            • Work directly with international clients and legal teams.<br />
-                            • Flexible engagement models (remote/hybrid).<br />
-                            • Competitive compensation and growth opportunities.</p>
-                            <h4 class="f-w-700 l-t-44">How to Apply:</h4>
-                            <p class="teaser">Submit your CV and details to <a href="mailto:careers@reighway.consulting">careers@reighway.consulting</a> or apply via our online application form.</p>
+                            • <span class="f-w-500">International Exposure-</span> Work directly with international clients and legal teams on high-profile matters. Gain exposure to complex cross-border cases and build a truly global career perspective that sets you apart. <br />
+                            • <span class="f-w-500">Flexible Engagement Models-</span> Flexible engagement models including remote and hybrid options. We understand that great work happens when professionals have the freedom to work in environments where they thrive. <br />
+                            • <span class="f-w-500">Career Growth-</span> Competitive compensation and clear growth opportunities. We invest in our people through training, mentorship, and pathways to advancement within our expanding global organization. <br />
+                        • <span class="f-w-500">Continuous Learning-</span> Access to professional development resources and training programs. Stay current with industry best practices and expand your skill set with our comprehensive learning initiatives. </p>
+                            <h4 class="f-w-700 l-t-44">Ready to Take the Next Step? </h4>
+                            <p class="teaser">Submit your CV and details to <a href="mailto:careers@reighway.com">careers@reighway.com</a> or apply via our online application form. We review all applications carefully and respond to qualified candidates within 5-7 business days. </p>
                         </div>
                     </div>
                 </div>

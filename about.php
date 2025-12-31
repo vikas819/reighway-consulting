@@ -59,9 +59,9 @@ require_once 'includes/header.php';
                 <div class="row">
                     <div class="col-lg-8">
                         <div class="intro-content">
-                            <h2>About Reighway Consulting</h2>
-                            <p class="paragraph-lg c-grey">The Bridge to Global Excellence-Reighway Consulting was founded on a clear belief: exceptional talent knows no borders. We connect global organizations with the specialized expertise they need to excel in an increasingly competitive marketplace.</p>
-                            <p class="paragraph-lg c-grey">Our Mission: To deliver seamless, compliant, and cost-effective consulting and talent solutions that function as a true extension of our clients internal teams.</p>
+                            <h2>The Bridge to Borderless Excellence</h2>
+                            <p class="paragraph-lg c-grey">Reighway Consulting was founded on a clear belief: exceptional talent knows no borders. We connect global organizations with the specialized expertise they need to excel in an increasingly competitive marketplace. </p>
+                            <p class="paragraph-lg c-grey">Our Mission: To deliver seamless, compliant, and cost-effective consulting and talent solutions that function as a true extension of our clients’ internal teams. We are committed to creating partnerships that drive measurable results and sustainable growth. </p>
                             <!-- <img src="assets/images/signature.png" alt="Reighway Consulting Signature">
                             <p class="paragraph-sm c-grey">CPA/PFS, CFP®, CGMA, CDFA</p> -->
                         </div>
@@ -134,7 +134,7 @@ require_once 'includes/header.php';
                                     <img src="assets/images/icons/icon-1.png" alt="Integrity Icon">
                                 </div>
                                 <h4 class="f-w-500">Integrity</h4>
-                                <p class="c-grey">We operate with full transparency, ensuring clients and candidates always have clarity and confidence in every engagement.</p>
+                                <p class="c-grey">We operate with full transparency, ensuring clients and candidates always have clarity and confidence in every engagement. Our honest communication builds trust and long-lasting partnerships. </p>
                             </div>
                         </div>
                         <div class="col-lg-4 mb-3">
@@ -143,7 +143,7 @@ require_once 'includes/header.php';
                                     <img src="assets/images/icons/icon-2.png" alt="Compliance Icon">
                                 </div>
                                 <h4 class="f-w-500">Compliance</h4>
-                                <p class="c-grey">We follow rigorous international standards, client-specific requirements, and secure data-handling protocols.</p>
+                                <p class="c-grey">We follow rigorous international standards, client-specific requirements, and secure data-handling protocols. Our commitment to regulatory excellence protects your organization at every level. </p>
                             </div>
                         </div>
                         <div class="col-lg-4 mb-3">
@@ -152,7 +152,7 @@ require_once 'includes/header.php';
                                     <img src="assets/images/icons/icon-3.png" alt="Excellence Icon">
                                 </div>
                                 <h4 class="f-w-500">Excellence</h4>
-                                <p class="c-grey">We are committed to delivering measurable value and consistently high-quality outcomes.</p>
+                                <p class="c-grey">We are committed to delivering measurable value and consistently high-quality outcomes. Every project receives meticulous attention to ensure superior results that exceed expectations. </p>
                             </div>
                         </div>
                         <div class="col-lg-4 mb-3">
@@ -161,7 +161,7 @@ require_once 'includes/header.php';
                                     <img src="assets/images/icons/icon-2.png" alt="Precision Icon">
                                 </div>
                                 <h4 class="f-w-500">Precision</h4>
-                                <p class="c-grey">In the legal and tech worlds, details matter. We pride ourselves on accuracy and "right-first-time" delivery.</p>
+                                <p class="c-grey">In the legal and tech worlds, details matter. We pride ourselves on accuracy and "right-first-time" delivery, eliminating costly errors and ensuring flawless execution. </p>
                             </div>
                         </div>
                         <div class="col-lg-4 mb-3">
@@ -170,7 +170,7 @@ require_once 'includes/header.php';
                                     <img src="assets/images/icons/icon-3.png" alt="Scalability Icon">
                                 </div>
                                 <h4 class="f-w-500">Scalability</h4>
-                                <p class="c-grey">Whether engaging a single Paralegal or building an entire IT support function, our solutions expand effortlessly with your needs.</p>
+                                <p class="c-grey">Whether engaging a single Paralegal or building an entire IT support function, our solutions expand effortlessly with your needs. We grow alongside your organization's ambitions. </p>
                             </div>
                         </div>
                     </div>

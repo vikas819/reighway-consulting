@@ -33,8 +33,12 @@ require_once 'includes/header.php';
                 <div class="row">
                     <div class="col">
                         <div class="contact-header">
-                            <h2 class="ln-ht-44">Contact Us</h2>
-                            <p class="large c-grey">Reighway Consulting connects global organizations with specialized expertise in legal support and IT infrastructure. Reach out to discuss how we can support your operations.</p>
+                            <h2 class="ln-ht-44">Let’s Architect Your Operational Future.</h2>
+                            <p class="large c-grey">Ready to reduce overheads and increase output? Our consultants are ready to design a bespoke talent or technology solution for your firm.</p>  
+
+                            <p class="large c-grey">Whether you're seeking to enhance your legal support capabilities, strengthen your IT infrastructure, or take the next step in your professional career, we're here to help you succeed. </p>
+
+                            <p class="large c-grey">Our team is ready to discuss how we can become your trusted partner for global talent solutions and consulting services. Let's explore how Reighway Consulting can support your specific needs and objectives. </p> 
                         </div>
                     </div>
                 </div>
@@ -46,7 +50,7 @@ require_once 'includes/header.php';
                             </div>
                             <div>
                                 <h6 class=" c-primary">For business inquiries, partnerships, or service engagements</h6>
-                                <a href="mailto:info@reighway.consulting" class="link  link-grey link-lg"><span>info@reighway.consulting</span></a>
+                                <a href="mailto:info@reighway.com" class="link  link-grey link-lg"><span>info@reighway.com</span></a>
                             </div>
                         </div>
                     </div>
@@ -57,18 +61,18 @@ require_once 'includes/header.php';
                             </div>
                             <div>
                                 <h6 class=" c-primary">For career opportunities or recruitment-related questions</h6>
-                                <a href="mailto:careers@reighway.consulting" class="link  link-grey link-lg"><span>careers@reighway.consulting</span></a>
+                                <a href="mailto:careers@reighway.com" class="link  link-grey link-lg"><span>careers@reighway.com</span></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-sm-6 col-7">
                         <div class="contact-detail-single">
                             <div class="icon-circle icon-circle-sm">
-                                <img src="assets/images/icons/icon-17.png" alt="Phone Icon">
+                                <img src="assets/images/icons/icon-16.png" alt="careers Icon">
                             </div>
                             <div>
-                                <h6 class=" c-primary">phone</h6>
-                                <a href="tel:+123456789" class="link  link-grey link-lg"><span>+123 456 789</span></a>
+                                <h6 class=" c-primary">Privacy Matters: For data protection inquiries or privacy-related requests: </h6>
+                                <a href="mailto:privacy@reighway.com" class="link  link-grey link-lg"><span>privacy@reighway.com</span></a>
                             </div>
                         </div>
                     </div>
