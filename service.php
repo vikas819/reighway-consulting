@@ -12,8 +12,8 @@ require_once 'includes/header.php';
                 <div class="row">
                     <div class="col">
                         <div class="page-header-content">
-                            <h1 class="c-dark">Services</h1>
-                            <p class="small ln-ht-auto c-dark">Got questions? <a href="contact.php" class="link link-inherit"><span>Talk to an Expert</span></a></p>
+                            <h1 class="c-dark">Legal Support Services</h1>
+                            <p class="small ln-ht-auto c-dark"> <a href="service.php" class="link link-inherit"><span>Discover Our Services</span></a></p>
                         </div>
                     </div>
                 </div>

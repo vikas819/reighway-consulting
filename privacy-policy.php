@@ -62,9 +62,9 @@ require_once 'includes/header.php';
                 </div>
             </div>
         </div>
-        <div class="image intro-bg">
+        <!-- <div class="image intro-bg">
             <img src="assets/images/intro-bg.jpg" alt="Privacy Policy">
-        </div>
+        </div> -->
     </div>
     <!----------------------------------------
     icon text section - end
