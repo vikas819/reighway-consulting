@@ -13,7 +13,7 @@ require_once 'includes/header.php';
                     <div class="col">
                         <div class="page-header-content">
                             <h1 class="c-dark">Get in Touch</h1>
-                            <p class="small ln-ht-auto c-dark">Got questions? <a href="contact.php" class="link link-inherit"><span>Talk to an Expert</span></a></p>
+                            <p class="small ln-ht-auto c-dark"> <a href="service.php" class="link link-inherit"><span>Discover Our Services</span></a></p>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ require_once 'includes/header.php';
                 <div class="row">
                     <div class="col">
                         <div class="contact-header">
-                            <h2 class="ln-ht-44">Let’s Architect Your Operational Future.</h2>
+                            <h2 class="ln-ht-44">Let's Architect Your Operational Future.</h2>
                             <p class="large c-grey">Ready to reduce overheads and increase output? Our consultants are ready to design a bespoke talent or technology solution for your firm.</p>  
 
                             <p class="large c-grey">Whether you're seeking to enhance your legal support capabilities, strengthen your IT infrastructure, or take the next step in your professional career, we're here to help you succeed. </p>

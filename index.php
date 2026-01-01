@@ -16,9 +16,9 @@ require_once 'includes/header.php';
                                 <div class="hero-slide-content">
                                     <h1 class="c-dark">Global Consulting and Specialist Talent Solutions for Legal and Technical Operations.</h1>
                                     <div class="button-group">
-                                        <p>Got questions? 
-                                            <a href="contact.php" class="link">
-                                                <span class="txt-upper f-w-500">Talk to an Expert</span>
+                                        <p>
+                                            <a href="service.php" class="link">
+                                                <span class="txt-upper f-w-500">Discover Our Services</span>
                                             </a>
                                         </p>
                                     </div>
@@ -30,9 +30,9 @@ require_once 'includes/header.php';
                                 <div class="hero-slide-content">
                                     <h1 class="c-dark">Your Dedicated Overseas Partner for Legal Support and Technical Service Delivery</h1>
                                     <div class="button-group">
-                                        <p>Got questions? 
-                                            <a href="contact.php" class="link">
-                                                <span class="txt-upper f-w-500">Talk to an Expert</span>
+                                        <p>
+                                            <a href="service.php" class="link">
+                                                <span class="txt-upper f-w-500">Discover Our Services</span>
                                             </a>
                                         </p>
                                     </div>
@@ -44,9 +44,9 @@ require_once 'includes/header.php';
                                 <div class="hero-slide-content">
                                     <h1 class="c-dark">Global Consulting and Specialist Talent Solutions for Legal and Technical Operations.</h1>
                                     <div class="button-group">
-                                        <p>Got questions? 
-                                            <a href="contact.php" class="link">
-                                                <span class="txt-upper f-w-500">Talk to an Expert</span>
+                                        <p>
+                                            <a href="service.php" class="link">
+                                                <span class="txt-upper f-w-500">Discover Our Services</span>
                                             </a>
                                         </p>
                                     </div>
@@ -58,9 +58,9 @@ require_once 'includes/header.php';
                                 <div class="hero-slide-content">
                                     <h1 class="c-dark">Your Dedicated Overseas Partner for Legal Support and Technical Service Delivery.</h1>
                                     <div class="button-group">
-                                        <p>Got questions? 
-                                            <a href="contact.php" class="link">
-                                                <span class="txt-upper f-w-500">Talk to an Expert</span>
+                                        <p>
+                                            <a href="service.php" class="link">
+                                                <span class="txt-upper f-w-500">Discover Our Services</span>
                                             </a>
                                         </p>
                                     </div>
@@ -124,7 +124,7 @@ require_once 'includes/header.php';
                     <div class="col-lg-8">
                         <div class="intro-content">
                             <h2>About Reighway Consulting</h2>
-                            <p class="paragraph-lg c-grey">Reighway Consulting, founded in 2025 and based in India, transforms UK legal operations through secure IT platforms including comprehensive CMS solutions. We connect India's elite legal and tech talent—specially trained for UK standards—with law firms needing streamlined research, drafting, compliance, contracts, litigation support, IP management, LPO services, and custom Content Management Systems. ISO 27001 compliant security and GDPR-ready platforms engineered from day one. </p>
+                            <p class="paragraph-lg c-grey">Reighway Consulting, founded in 2025 and based in India, transforms UK legal operations through secure IT platforms including comprehensive CMS solutions. We connect India's elite legal and tech talent specially trained for UK standards with law firms needing streamlined research, drafting, compliance, contracts, litigation support, IP management, LPO services, and custom Content Management Systems. ISO 27001 compliant security and GDPR-ready platforms engineered from day one. </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -154,7 +154,7 @@ require_once 'includes/header.php';
                     <div class="row">
                         <div class="icon-box-section-heading-content">
                             <h2 class="f-w-400 heading-40">Why Global Leaders Choose Us </h2>
-                            <p class=" heading-40">In an era of rising costs and complex regulations, Reighway provides the agility you need to scale. We don’t just fill seats; we optimize your entire delivery model. </p>
+                            <p class=" heading-40">In an era of rising costs and complex regulations, Reighway provides the agility you need to scale. We don’t just fill seats, we optimize your entire delivery model. </p>
                         </div>
                     </div>
                     
